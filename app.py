@@ -25,7 +25,7 @@ df = load_data()
 
 
 st.title("🎬 Movie Recommendation System")
-st.write("Built with Python, Scikit-learn, Pandas & Streamlit")
+st.write("Built with Python")
 
 
 
@@ -113,3 +113,4 @@ elif option == "Keyword / Genre Based":
         st.subheader("Recommended Movies:")
         for movie in recommendations:
             st.write("👉", movie)
+
