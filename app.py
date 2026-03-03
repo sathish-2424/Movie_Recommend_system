@@ -144,7 +144,7 @@ if st.button("Generate Recommendations"):
         recs = get_content_recs(selected_movie)
         if recs is not None:
             for _, row in recs.iterrows():
-                st.write(f"**{row['title']}** ({row['genres']})")
+                st.write(f"**{row['title']}**")
         else:
             st.warning("Movie not found.")
 
